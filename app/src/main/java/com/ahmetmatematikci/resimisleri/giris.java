@@ -10,7 +10,7 @@ import android.widget.ListView;
 
 public class giris extends ListActivity {
 
-    String[] sayfalar = {"UrlResim","MetinYazmaFont", "DilTanimla"};
+    String[] sayfalar = {"UrlResim","MetinYazmaFont", "DilTanimla", "KameraAPP"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

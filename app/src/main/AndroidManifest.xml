@@ -3,8 +3,8 @@
     package="com.ahmetmatematikci.resimisleri">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
-
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -42,6 +42,21 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+
+        <activity android:name=".KameraAPP">
+            <intent-filter>
+                <action android:name="android.intent.action.KameraAPP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+
     </application>
 
 </manifest>

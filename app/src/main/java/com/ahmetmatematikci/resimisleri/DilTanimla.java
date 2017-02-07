@@ -47,7 +47,7 @@ public class DilTanimla extends ListActivity {
 
         //super.onActivityResult(requestCode, resultCode, data);
         ArrayList<String> liste;
-        if (1==1){
+        if (resultCode == RESULT_OK){
             liste = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
         } else {
             liste = new ArrayList<String>();
